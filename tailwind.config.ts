@@ -8,6 +8,9 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        'dm-serif': ['"DM Serif Display"', 'serif'],
+      },
       colors: {
         black: {
           DEFAULT: '#000000',

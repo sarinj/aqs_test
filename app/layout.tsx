@@ -1,10 +1,8 @@
 import type { Metadata } from 'next'
-import { Archivo } from 'next/font/google'
 import './globals.css'
 import NavBar from '@/components/navigation/NavBar'
 import Footer from '@/components/navigation/Footer'
-
-const archivo = Archivo({ subsets: ['latin'] })
+import { archivo } from './fonts'
 
 export const metadata: Metadata = {
   title: 'Create Next App',
@@ -19,9 +17,8 @@ export default function RootLayout({
   return (
     <html lang='en'>
       <body className={archivo.className}>
-        <div className='mb-[62.2px]'>
-          <NavBar />
-        </div>
+        <NavBar />
+
         {children}
         <Footer />
       </body>

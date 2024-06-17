@@ -6,6 +6,10 @@ const nextConfig = {
         protocol: 'https',
         hostname: 'www.frontendpractice.com',
       },
+      {
+        protocol: 'https',
+        hostname: 'images.prismic.io',
+      },
     ],
     dangerouslyAllowSVG: true,
   },
