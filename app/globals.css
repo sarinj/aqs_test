@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.clickable {
+  @apply box-border focus:border-2 focus:border-dashed focus:border-navy;
+}

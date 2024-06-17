@@ -13,7 +13,10 @@ export default function FooterMenuItem({
   return (
     <Link
       href={href}
-      className={cn('font-semibold cursor-pointer hover:underline', className)}
+      className={cn(
+        'font-semibold cursor-pointer hover:underline clickable',
+        className
+      )}
     >
       {title}
     </Link>

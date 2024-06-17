@@ -26,7 +26,7 @@ export default function HomepageSection1() {
             <Button>Learn More</Button>
           </div>
         </div>
-        <div className='hidden md:block'>
+        <div className='hidden md:flex'>
           <Image
             alt='image'
             src='https://www.frontendpractice.com/_next/image?url=%2Fproject-collage.png&w=1200&q=100'

@@ -7,23 +7,23 @@ export const NavMenus: MenuItem[] = [
   },
   {
     title: 'Projects',
-    href: '/#',
+    href: '#',
   },
   {
     title: 'Blog',
-    href: '/#',
+    href: '#',
   },
   {
     title: 'FAQ',
-    href: '/#',
+    href: '#',
   },
   {
     title: 'Contact',
-    href: '/#',
+    href: '/contact',
   },
   {
     title: 'Newsletter ↗',
-    href: '/#',
+    href: '#',
   },
   {
     title: 'Feedback',

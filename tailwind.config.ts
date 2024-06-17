@@ -12,6 +12,9 @@ const config: Config = {
         'dm-serif': ['"DM Serif Display"', 'serif'],
       },
       colors: {
+        navy: {
+          DEFAULT: '#000080',
+        },
         black: {
           DEFAULT: '#000000',
           1: '#333333',

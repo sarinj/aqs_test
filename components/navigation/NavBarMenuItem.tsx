@@ -14,7 +14,7 @@ export default function NavBarMenuItem({
     <Link
       href={href}
       className={cn(
-        'mx-[15px] text-[18px] font-bold cursor-pointer hover:underline',
+        'mx-[15px] text-[18px] font-bold cursor-pointer hover:underline clickable',
         className
       )}
     >
