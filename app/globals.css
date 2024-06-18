@@ -3,5 +3,5 @@
 @tailwind utilities;
 
 .clickable {
-  @apply box-border focus:border-2 focus:border-dashed focus:border-navy;
+  @apply box-border border-transparent focus:border-2 focus:border-dashed focus:border-navy;
 }

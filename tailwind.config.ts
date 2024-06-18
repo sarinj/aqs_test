@@ -23,6 +23,9 @@ const config: Config = {
           DEFAULT: '#FAEBD7',
         },
       },
+      transitionProperty: {
+        width: 'width',
+      },
     },
   },
   plugins: [],
